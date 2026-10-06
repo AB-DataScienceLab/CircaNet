@@ -13,7 +13,7 @@
 
 CircaNet is an integrated, curated, and value-added knowledge-base for human circadian biology. CircaNet is a dedicated multi-omics circadian resource developed to provide deep insights into clock-controlled mechanisms and expand our understanding of circadian disruption in human health and disease.
 
-CircaNet unifies circadian gene profiles, AlphaFold structural annotations, residue-level biophysical features, variant pathogenicity metrics, regulatory networks, inter-tissue communication axes, tissue-specific rhythmicity, and clinical comorbidity landscapes. This centralized platform assists researchers in dissecting chronobiological pathways and accelerating targeted chronomedicine and biomarker discovery.
+CircaNet unifies circadian gene profiles, AlphaFold structural annotations, residue-level biophysical features, variant pathogenicity metrics,  cross-tissue co-expression, tissue-specific rhythmicity, and clinical comorbidity landscapes.
 
 ---
 
@@ -24,31 +24,28 @@ CircaNet unifies circadian gene profiles, AlphaFold structural annotations, resi
    * Gene Profiles
    * Orthologs
 
-2. **Integrative Modules**: The integrative module provides multidimensional biological layers across circadian genes:
-   * **Structure & Protein Features**:
-     * AlphaFold 3D Structural Models & pLDDT Confidence Scores
-     * Post-Translational Modifications (PTMs)
-     * Intrinsically Disordered Regions (IDRs)
-     * Liquid-Liquid Phase Separation (LLPS) Propensity Scores
-   * **Variants & Pathogenicity**:
-     * AlphaMissense Pathogenicity Scores (Residue & Gene Level)
-     * ClinVar Clinical Variant Records
-     * Population Allele Frequencies
-   * **Networks & Interactions**:
-     * Protein-Protein Interactions (PPI) & Functional Community Modules
-     * Transcription Factors & Binding Sites (TF & TFBS)
-     * Inter-Tissue Communication & Global Centrality Networks
-   * **Rhythmicity & Expression**:
-     * Tissue-Specific Expression Profiles (GTEx) & Tissue Specificity Index (TSI)
-     * Parametric Circadian Oscillation Metrics (Phase, Amplitude, Periodicity)
+2. **Integrative Module**
+   * **Structure**:
+   * **Variants**:
+     * Variant Browse
+     * Gene Variants
+     * Population Frequencies
+     * Alphamissense
+   * **Networks**:
+     * Interaction & Modules
+     * Cross-tissue co-expression
+   * **Rhythmicity**
    * **Disease & Comorbidity**:
-     * Gene-Disease Phenotypic Associations
-     * Circadian Comorbidity Mapping
+     * Gene-Disease Associations
+     *  Comorbidity
+   * **Expression**:
+     * Tissue Expression
+     * Gene Expression Catalog
 
-3. **Visualization & Search Modules**: Interactive network, structure, and genomic feature visualizations:
-   * Interactive Network Visualizer (PPI & Inter-Tissue Dynamics)
-   * Gene & Variant Search Tools
-   * Advanced Multi-Query Filters
+3. **Search Module**:
+   * Simple Search
+   * Advanced Search
+   * Comparative Search
 
 4. **Accessory Modules**:
    * Data Summary & Statistics
